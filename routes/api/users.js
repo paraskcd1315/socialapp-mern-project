@@ -7,25 +7,19 @@ const config = require('config');
 const { check, validationResult } = require('express-validator');
 
 const commonPasswords = [
-  '123',
   'password',
-  'god',
-  '123456',
   '123456789',
   'picture1',
   '12345678',
-  '111111',
-  '123123',
-  '12345',
   '1234567890',
-  'qwerty',
-  'abc123',
   'Million2',
-  'admin',
   'password1',
   'qwertyuiop',
   '1q2w3e4r',
-  'iloveyou'
+  'iloveyou',
+  'ihateyou',
+  'ifuckyou',
+  'ifuckher'
 ];
 
 // User model
