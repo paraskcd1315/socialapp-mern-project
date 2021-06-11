@@ -1,4 +1,5 @@
 node_modules/
+micon/
 config/default.json
 config/production.json
 client/build
